@@ -1,6 +1,6 @@
 export default {
-  meEndpoint: 'http://88.222.242.97:8090/api/auth/me',
-  loginEndpoint: 'http://88.222.242.97:8090/api/login',
+  meEndpoint: 'https://sms-demo-be.dygital.my.id/api/auth/me',
+  loginEndpoint: 'https://sms-demo-be.dygital.my.id/api/login',
   registerEndpoint: '/jwt/register',
   storageTokenKeyName: 'accessToken',
   onTokenExpiration: 'refreshToken' // logout | refreshToken

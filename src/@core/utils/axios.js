@@ -1,7 +1,7 @@
 import axios from 'axios'
 import authConfig from 'src/configs/auth'
 
-const baseURL = process.env.NEXT_PUBLIC_API_URL || 'http://88.222.242.97:8090/'
+const baseURL = process.env.NEXT_PUBLIC_API_URL || 'https://sms-demo-be.dygital.my.id/'
 
 const api = axios.create({
   baseURL
